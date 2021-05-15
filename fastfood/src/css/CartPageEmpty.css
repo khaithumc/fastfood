@@ -1,0 +1,47 @@
+.Wrapper {
+    width:70%;
+    margin: auto;
+    background: white;
+}
+
+.Wrapper h4 {
+    padding-top: 50px;
+    padding-left: 20px;
+    color: #E4002B;
+    font-weight: bold;
+}
+
+.Wrapper hr {
+    border-top: 1px black solid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Wrapper .ButtonCartOrder {
+    height: 50px;
+    width: 200px;
+    background: #E4002B;
+    border-radius: 5px;
+    border: 1px white solid;
+}
+
+.Wrapper .ButtonCartOrder {
+    margin-top: 50px;
+}
+
+.Wrapper .ButtonCartOrder a {
+    color: white;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+.Wrapper2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+.Wrapper2 h5 {
+    margin-top: 50px;
+}
+

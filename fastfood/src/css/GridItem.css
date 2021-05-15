@@ -1,0 +1,129 @@
+.Wrapper {
+    width: 1184px;
+    margin: auto;
+    background: white;
+}
+
+.Wrapper .GridTitle {
+    text-align: center;
+    padding-top: 32px;
+    padding-right: 400px;
+    padding-left: 400px;
+}
+.Wrapper .GridTitle h3 {
+    font-size: 24px;
+    color: #273338;
+}
+
+.Wrapper .GridTitle p {
+    padding-top: 20px;
+    font: 16px Karla, sans-serif;
+    color: #6f777A;
+    text-align: left;
+    line-height: 170%;
+    letter-spacing: 1px;
+}
+
+.Wrapper .ListCard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 30px;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    justify-content: center;
+}
+
+.CardPost {
+    width: 350px;
+    border: none;
+    border-radius: 50px;
+}
+
+.CardPost .CardImg {
+    width: 350px;
+    height: 250px;
+}
+
+.CardPost .CardImg:hover {
+    cursor: pointer;
+}
+
+
+
+.CardPost .CardBody .CardTitle {
+    font: 16px Karla, sans-serif;
+    color: #000000;
+    line-height: 170%;
+    letter-spacing: 1px
+}
+
+.CardPost .CardBody .CardText {
+    font: 14px sans-serif;
+    color: #6f777A;
+    line-height: 170%;
+    letter-spacing: 1px
+}
+
+.CardPost .CardBody .CardButton:hover {
+    text-decoration-line: none;
+}
+
+.ButtonCustom {
+    height: 40px;
+    background: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.ButtonCustom a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ButtonOrder {
+    height: 41px;
+    background: #E4002B;
+    border: 1px white solid;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.ButtonOrder a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px){
+    .Wrapper .GridTitle {
+        text-align: center;
+        padding-top: 32px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .Wrapper .ListCard {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .Wrapper .ListCard {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .CardPost {
+        width: 100%;
+    }
+
+}

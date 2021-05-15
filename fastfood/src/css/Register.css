@@ -1,0 +1,10 @@
+.Wrapper {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+#CardBody {
+    border-radius: 5px;
+}
+

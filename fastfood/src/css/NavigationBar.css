@@ -1,0 +1,126 @@
+.navbar-handing {
+    width: 70%;
+    margin: auto;
+}
+.nav-menu-1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 53rem;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    background: white;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    border-top: #E4002B solid 20px;
+}
+.nav-item-1 a {
+    text-decoration: none;
+}
+.nav-item-1 .button-login {
+    width: 130px;
+    border: none;
+    background: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-menu-2 {
+    height: 55px;
+    display: flex;
+    align-items: stretch;
+    background: ghostwhite;
+}
+.nav-menu-2 .nav-item-2 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    background: none;
+    border: none;
+}
+.nav-menu-2 .nav-item-2:hover {
+    background: black;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-menu-2 .nav-item-2-click {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    background: black;
+    border: none;
+}
+
+.nav-menu-2 .nav-item-2-click:hover {
+    background: black;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-item-2 p {
+    margin: 0;
+}
+
+.nav-item-2-click p {
+    margin: 0
+}
+
+.nav-cart {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nav-cart-prod {
+    position: relative;
+}
+
+.nav-cart-prod span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+}
+
+.nav-cart a {
+    color: #E4002B;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration-line: none;
+    padding-left: 15px;
+}
+
+.nav-logo {
+    color: #E4002B;
+}
+
+.nav-logo:hover {
+    color: #E4002B;
+}
+
+.my-modal {
+    width: 90%;
+    top: 10%;
+}
+
+
+

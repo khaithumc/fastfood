@@ -1,0 +1,25 @@
+#ButtonLogin {
+    margin-top: 30px;
+    background: #E4002B;
+    border: 1px white solid;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#LoginForm {
+    margin-top: 30px;
+}
+
+#EditText {
+    height: 50px;
+}
+
